@@ -2,4 +2,4 @@
 
 SEAN is a fully responsive ecommerce website, maximum compatiblities in all mobile devices, built using HTML, CSS, and JavaScript.
 
-# Here's the link to the project:
+# Here's the link to the project: https://shaun2003.github.io/SEAN-ecommerce/
