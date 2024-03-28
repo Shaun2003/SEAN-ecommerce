@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 @codewithsadee 
+ * copyright 2023 @SEAN
  */
 
 
@@ -121,7 +121,7 @@ input::-ms-input-placeholder { font: inherit; }
 
 input::placeholder { font: inherit; }
 
-body { background: var(--white); }
+body { background: var(--sky); }
 
 /**
  * scrollbar style
@@ -214,8 +214,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   pointer-events: all;
 }
 
-
-
 /**
  * MODAL 
  */
@@ -260,11 +258,9 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
     visibility: visible;
     pointer-events: all;
   }
-
 }
 
 @keyframes popup {
-
   0% {
     opacity: 0;
     visibility: hidden;
@@ -276,11 +272,9 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
     visibility: visible;
     pointer-events: all;
   }
-
 }
 
 .modal.closed { display: none; }
-
 .modal-close-overlay {
   position: absolute;
   top: 0;
@@ -291,7 +285,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .newsletter-img { display: none; }
-
 .modal-content {
   position: relative;
   max-width: 350px;
@@ -313,10 +306,8 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 @keyframes scaleUp {
-
   0% { -webkit-transform: scale(0.9); transform: scale(0.9); }
   100% { -webkit-transform: scale(1); transform: scale(1); }
-
 }
 
 .modal-close-btn {
@@ -381,10 +372,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .btn-newsletter:hover { background: var(--salmon-pink); }
 
-
-
-
-
 /**
  * NOTIFICATION TOAST 
  */
@@ -422,7 +409,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 @-webkit-keyframes slideInOut {
-
   0%,
   45%,
   100% {
@@ -439,11 +425,9 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
     opacity: 1;
     visibility: visible;
   }
-
 }
 
 @keyframes slideInOut {
-
   0%,
   45%,
   100% {
@@ -460,7 +444,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
     opacity: 1;
     visibility: visible;
   }
-
 }
 
 .notification-toast.closed { display: none; }
@@ -860,7 +843,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .banner-title {
-  color: var(--eerie-black);
+  color: var(--white);
   font-size: var(--fs-1);
   text-transform: uppercase;
   line-height: 1;
